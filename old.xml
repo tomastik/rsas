@@ -12,7 +12,7 @@
     <fallback-override>1</fallback-override>
   </mount>
   <mount>
-    <mount-name>/babbling_brook.mp3</mount-name>
+    <mount-name>/Monsoon_v0.7.8.mp3</mount-name>
     <username>$ICECAST_USERNAME</username>
     <password>$ICECAST_PASSWORD</password>
     <!-- You must specify these audio codec parameters: -->
