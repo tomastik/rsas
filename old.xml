@@ -8,11 +8,18 @@
     <mount-name>$ICECAST_MOUNT</mount-name>
     <username>$ICECAST_USERNAME</username>
     <password>$ICECAST_PASSWORD</password>
+    <fallback-mount>/babbling_brook.mp3</fallback-mount>
+    <fallback-override>1</fallback-override>
   </mount>
   <mount>
-    <mount-name>$ICECAST_MOUNT2</mount-name>
-    <username>$ICECAST_USERNAME2</username>
-    <password>$ICECAST_PASSWORD2</password>
-  </mount>
+    <mount-name>/babbling_brook.mp3</mount-name>
+    <username>$ICECAST_USERNAME</username>
+    <password>$ICECAST_PASSWORD</password>
+    <!-- You must specify these audio codec parameters: -->
+    <type>audio/mpeg</type>
+    <bitrate>64</bitrate>
+    <channels>2</channels>
+    <samplerate>44100</samplerate>
+    </mount>
 </icecast>
 
