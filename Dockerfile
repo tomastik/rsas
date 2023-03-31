@@ -7,6 +7,7 @@ RUN dpkg -i *.deb
 
 COPY old.xml .
 COPY start.sh .
+COPY Monsoon_v0.7.8.mp3 .
 
 CMD ["./start.sh"]
 
